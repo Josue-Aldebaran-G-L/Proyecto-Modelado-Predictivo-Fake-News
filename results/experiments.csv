@@ -1,0 +1,30 @@
+experiment_id,config,notes,epochs_trained,val_f1,val_loss_min,test_f1,test_accuracy,test_precision,test_recall,test_loss
+lr_0.05,"{'lr': 0.05, 'num_filters': 100, 'dropout': 0.5, 'embed_dim': 50}","Sweep LR: lr=0.05, resto fijo (filters=100, dropout=0.5)",4,0.9076,1.5628,0.9039,0.9135,0.8887,0.9197,3.306
+lr_0.01,"{'lr': 0.01, 'num_filters': 100, 'dropout': 0.5, 'embed_dim': 50}","Sweep LR: lr=0.01, resto fijo (filters=100, dropout=0.5)",4,0.9474,0.1141,0.9475,0.9533,0.9412,0.954,0.1256
+lr_0.005,"{'lr': 0.005, 'num_filters': 100, 'dropout': 0.5, 'embed_dim': 50}","Sweep LR: lr=0.005, resto fijo (filters=100, dropout=0.5)",5,0.9551,0.1005,0.9548,0.9601,0.9564,0.9532,0.1087
+lr_0.001,"{'lr': 0.001, 'num_filters': 100, 'dropout': 0.5, 'embed_dim': 50}","Sweep LR: lr=0.001, resto fijo (filters=100, dropout=0.5)",7,0.9562,0.1025,0.9589,0.9634,0.9524,0.9654,0.1096
+lr_0.0005,"{'lr': 0.0005, 'num_filters': 100, 'dropout': 0.5, 'embed_dim': 50}","Sweep LR: lr=0.0005, resto fijo (filters=100, dropout=0.5)",10,0.9541,0.1084,0.9566,0.9612,0.9466,0.9669,0.1265
+lr_0.0001,"{'lr': 0.0001, 'num_filters': 100, 'dropout': 0.5, 'embed_dim': 50}","Sweep LR: lr=0.0001, resto fijo (filters=100, dropout=0.5)",10,0.9369,0.1357,0.9368,0.9435,0.9275,0.9462,0.1435
+lr_5e-05,"{'lr': 5e-05, 'num_filters': 100, 'dropout': 0.5, 'embed_dim': 50}","Sweep LR: lr=5e-05, resto fijo (filters=100, dropout=0.5)",10,0.9211,0.1725,0.9189,0.9274,0.9074,0.9308,0.1771
+lr_1e-05,"{'lr': 1e-05, 'num_filters': 100, 'dropout': 0.5, 'embed_dim': 50}","Sweep LR: lr=1e-05, resto fijo (filters=100, dropout=0.5)",10,0.8131,0.3767,0.8081,0.8261,0.7893,0.8277,0.3857
+filters_50,"{'lr': 0.001, 'num_filters': 50, 'dropout': 0.5, 'embed_dim': 50}","Sweep Filtros: num_filters=50, resto fijo (lr=1e-3, dropout=0.5)",7,0.9541,0.1084,0.951,0.956,0.9371,0.9654,0.1159
+filters_100,"{'lr': 0.001, 'num_filters': 100, 'dropout': 0.5, 'embed_dim': 50}","Sweep Filtros: num_filters=100, resto fijo (lr=1e-3, dropout=0.5)",8,0.9567,0.1035,0.9575,0.9621,0.9484,0.9669,0.1214
+filters_150,"{'lr': 0.001, 'num_filters': 150, 'dropout': 0.5, 'embed_dim': 50}","Sweep Filtros: num_filters=150, resto fijo (lr=1e-3, dropout=0.5)",8,0.957,0.1051,0.9576,0.9621,0.9477,0.9676,0.1221
+filters_200,"{'lr': 0.001, 'num_filters': 200, 'dropout': 0.5, 'embed_dim': 50}","Sweep Filtros: num_filters=200, resto fijo (lr=1e-3, dropout=0.5)",9,0.9548,0.1009,0.958,0.9622,0.9426,0.9739,0.1459
+filters_250,"{'lr': 0.001, 'num_filters': 250, 'dropout': 0.5, 'embed_dim': 50}","Sweep Filtros: num_filters=250, resto fijo (lr=1e-3, dropout=0.5)",7,0.9564,0.1047,0.9588,0.9635,0.9581,0.9595,0.107
+filters_300,"{'lr': 0.001, 'num_filters': 300, 'dropout': 0.5, 'embed_dim': 50}","Sweep Filtros: num_filters=300, resto fijo (lr=1e-3, dropout=0.5)",6,0.9562,0.1031,0.9589,0.9634,0.9505,0.9676,0.1052
+filters_350,"{'lr': 0.001, 'num_filters': 350, 'dropout': 0.5, 'embed_dim': 50}","Sweep Filtros: num_filters=350, resto fijo (lr=1e-3, dropout=0.5)",7,0.9565,0.1078,0.9614,0.9656,0.956,0.9669,0.1093
+filters_400,"{'lr': 0.001, 'num_filters': 400, 'dropout': 0.5, 'embed_dim': 50}","Sweep Filtros: num_filters=400, resto fijo (lr=1e-3, dropout=0.5)",7,0.9582,0.1062,0.9595,0.9638,0.9508,0.9683,0.1131
+dropout_0.0,"{'lr': 0.001, 'num_filters': 350, 'dropout': 0.0, 'embed_dim': 50}","Sweep Dropout: dropout=0.0, resto fijo (lr=1e-3, filters=100)",9,0.9595,0.0968,0.9617,0.9658,0.954,0.9694,0.1343
+dropout_0.1,"{'lr': 0.001, 'num_filters': 350, 'dropout': 0.1, 'embed_dim': 50}","Sweep Dropout: dropout=0.1, resto fijo (lr=1e-3, filters=100)",8,0.9571,0.0958,0.9624,0.9664,0.9554,0.9694,0.1212
+dropout_0.2,"{'lr': 0.001, 'num_filters': 350, 'dropout': 0.2, 'embed_dim': 50}","Sweep Dropout: dropout=0.2, resto fijo (lr=1e-3, filters=100)",6,0.9581,0.0977,0.9602,0.9647,0.9569,0.9635,0.1016
+dropout_0.3,"{'lr': 0.001, 'num_filters': 350, 'dropout': 0.3, 'embed_dim': 50}","Sweep Dropout: dropout=0.3, resto fijo (lr=1e-3, filters=100)",6,0.9579,0.0977,0.96,0.9645,0.9568,0.9632,0.1007
+dropout_0.4,"{'lr': 0.001, 'num_filters': 350, 'dropout': 0.4, 'embed_dim': 50}","Sweep Dropout: dropout=0.4, resto fijo (lr=1e-3, filters=100)",7,0.9583,0.0992,0.9589,0.9632,0.9469,0.9713,0.1132
+dropout_0.5,"{'lr': 0.001, 'num_filters': 350, 'dropout': 0.5, 'embed_dim': 50}","Sweep Dropout: dropout=0.5, resto fijo (lr=1e-3, filters=100)",9,0.9568,0.1029,0.9593,0.9635,0.9466,0.9724,0.1473
+dropout_0.6,"{'lr': 0.001, 'num_filters': 350, 'dropout': 0.6, 'embed_dim': 50}","Sweep Dropout: dropout=0.6, resto fijo (lr=1e-3, filters=100)",10,0.9557,0.1053,0.9597,0.964,0.9508,0.9687,0.1613
+dropout_0.7,"{'lr': 0.001, 'num_filters': 350, 'dropout': 0.7, 'embed_dim': 50}","Sweep Dropout: dropout=0.7, resto fijo (lr=1e-3, filters=100)",7,0.9562,0.1061,0.9578,0.9622,0.9455,0.9705,0.1112
+dropout_0.8,"{'lr': 0.001, 'num_filters': 350, 'dropout': 0.8, 'embed_dim': 50}","Sweep Dropout: dropout=0.8, resto fijo (lr=1e-3, filters=100)",7,0.9553,0.104,0.955,0.9599,0.9488,0.9613,0.1114
+dropout_0.9,"{'lr': 0.001, 'num_filters': 350, 'dropout': 0.9, 'embed_dim': 50}","Sweep Dropout: dropout=0.9, resto fijo (lr=1e-3, filters=100)",10,0.9525,0.1102,0.9549,0.9601,0.9554,0.9543,0.1287
+campo_solo_title,"{'lr': 0.001, 'num_filters': 100, 'dropout': 0.5, 'embed_dim': 50}","Sweep Campo de entrada: solo_title, vocab=20002",9,0.8869,0.2518,0.8838,0.8976,0.8872,0.8803,0.3194
+campo_solo_text,"{'lr': 0.001, 'num_filters': 100, 'dropout': 0.5, 'embed_dim': 50}","Sweep Campo de entrada: solo_text, vocab=20002",8,0.9401,0.1345,0.9484,0.9542,0.9461,0.9507,0.1395
+campo_title_text,"{'lr': 0.001, 'num_filters': 100, 'dropout': 0.5, 'embed_dim': 50}","Sweep Campo de entrada: title_text, vocab=20002",8,0.9562,0.1012,0.9564,0.9609,0.9434,0.9698,0.1203
